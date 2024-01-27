@@ -26,6 +26,8 @@ Then run:
 
 `java -cp bin general.Main`
 
+![Image of the game running](docs/images/letsplay.png)
+
 ## Future improvements
 
 In hindsight not the most elegant solution - for instance it was obviously unnecessary to make a separate class for every question, instead of question strings that could be set in different instances of one question class.
