@@ -33,8 +33,5 @@ public class Main {
 		GameLogic game = new GameLogic(questions);
 
 		game.letsPlay();
-
-		
-
 	}
 }

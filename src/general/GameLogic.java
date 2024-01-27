@@ -127,8 +127,8 @@ import java.util.ArrayList;
 	private String printWelcome() {
 		String border = "#################################";
 		String welcome = "*** Welcome to the Java-quiz! ***";
-		String info = "This quiz contains " + questions.size() + " questions,\n" + "get all of them right and get\nsome ascii art as reward";
-		String twoAttempts = "You get two attempts for each question...";
+		String info = "This quiz contains " + questions.size() + " questions,\n" + "get all of them right and get\nsome ascii art as reward.";
+		String twoAttempts = "You get two attempts for each question.";
 		return String.format("\n%s\n%s\n%s\n\n%s\n\n%s\n%s", border, welcome, border, info, twoAttempts, validIntegers);
 	}	
 
@@ -146,39 +146,4 @@ import java.util.ArrayList;
 		System.out.println("   |   |");
 		System.out.println("   >   >");
 	}
-
-	// alternativ version utan uppdelning i
-	// de två metoderna getAnswer() samt doneWithInput()
-	// som ger samma resultat
-	// gjorde uppdelningen för att försöka få det mer 
-	// strukturerat och enkelt men osäkert om det lyckades 
-//	private int getAnswer(Question question) {
-//		int answer = 0;	
-//		while (attempts < 2) {
-//			System.out.println("Your answer: ");
-//			if (input.hasNextInt()) {
-//				answer = input.nextInt();	
-//				input.nextLine();
-//				if (answer == 1 || answer == 2 || answer == 3) {
-//					if (checkIfcorrect(question, answer)) {
-//						break;
-//					} else {
-//						attempts++;
-//						continue;
-//					}
-//				} else {
-//					System.out.println(validIntegers);
-//				}
-//			} else if (input.next().charAt(0) == '\u0071') {
-//				answer = -1;
-//				break;
-//			} else {
-//				System.out.println(validIntegers);
-//				input.nextLine();
-//			}
-//		}
-//		attempts = 0;
-//		return answer;
-//	}
-
 }
