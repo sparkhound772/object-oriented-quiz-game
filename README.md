@@ -1,6 +1,6 @@
 ## Description
 
-Written as part of a Java course.
+A simple Java quiz game with a few questons about OOP while using a little OOP.
 
 ## Requirements
 
