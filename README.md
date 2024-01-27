@@ -36,4 +36,4 @@ It was in hindsight unnecessary to make a separate class for every question, and
 
 Deitel, P., Deitel, H. (2020). _Java, How to program, Late objects._ 11th edition. Person.
 
-Specifically Chapter 10 for the help with the polymorphism between the Question interface and the implementing classes.
+Specifically Chapter 10 for the help with the polymorphism between an interface and it's implementing classes.
