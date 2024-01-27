@@ -1,6 +1,6 @@
 ## Description
 
-Written as part of Java course.
+Written as part of a Java course.
 
 ## Requirements
 
@@ -24,7 +24,7 @@ Compile in this order to avoid "cannot find symbol"-errors and such:
 
 Then run:
 
-`java -cp bin src/general/Main.java
+`java -cp bin src/general/Main.java`
 
 ## Future improvements
 
