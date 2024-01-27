@@ -26,10 +26,14 @@ Then run:
 
 `java -cp bin general.Main`
 
-![Image of the game running](docs/images/letsplay.png)
+![Image of the game running](docs/images/letsplay.)
 
 ## Future improvements
 
-In hindsight not the most elegant solution - for instance it was obviously unnecessary to make a separate class for every question, instead of question strings that could be set in different instances of one question class.
+It was in hindsight unnecessary to make a separate class for every question, and there are for sure more elegant solutions. If some version of this program is needed in the future that and possibly other things will be fixed.
 
-If some version of this program is needed in the future that and other things will be fixed.
+## Thanks to
+
+Deitel, P., Deitel, H. (2020). _Java, How to program, Late objects._ 11th edition. Person
+
+Specifically Chapter 10 for the help with the polymorphism between the Question interface and the implementing classes.

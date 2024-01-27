@@ -4,16 +4,9 @@ import questions.*;
 import java.util.ArrayList;
 
 /**
- * Ett spel som ställer ett antal frågor, kontrollerar svaren från användaren, och 
- * kontinuerligt rapporterar huruvida denna svarar rätt eller fler samt poängställningen.
+ * A game which asks a number of questions, controls the answers from the user, 
+ * and continually keeps score and reports whether the answers are correct or not.
  *
- * Använt mina gamla inlämnade programmeringsuppgifter som stöd samt
- * Deitel, P., Deitel, H. (2020). Java, How to program, Late objects. 11th edition. Pearson. 
- * som jag använt i en annan Javakurs.
- * I synnerhet "Payroll system"-exemplet som utvecklas i kapitel 10, 
- * för att få till det med relationen och polymorfismen mellan Question 
- * och dess implementerande klasser. 
- * 
  * @author sparkhound
  * 2023-05-19
  *
