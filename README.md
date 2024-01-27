@@ -26,7 +26,7 @@ Then run:
 
 `java -cp bin general.Main`
 
-![Image of the game running](docs/images/letsplay.)
+![Image of the game running](docs/images/letsplay.png)
 
 ## Future improvements
 
@@ -34,6 +34,6 @@ It was in hindsight unnecessary to make a separate class for every question, and
 
 ## Thanks to
 
-Deitel, P., Deitel, H. (2020). _Java, How to program, Late objects._ 11th edition. Person
+Deitel, P., Deitel, H. (2020). _Java, How to program, Late objects._ 11th edition. Person.
 
 Specifically Chapter 10 for the help with the polymorphism between the Question interface and the implementing classes.
