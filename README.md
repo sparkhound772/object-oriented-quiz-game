@@ -24,7 +24,7 @@ Compile in this order to avoid "cannot find symbol"-errors and such:
 
 Then run:
 
-`java -cp bin src/general/Main.java`
+`java -cp bin general.Main`
 
 ## Future improvements
 

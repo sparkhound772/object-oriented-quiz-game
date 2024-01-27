@@ -11,7 +11,7 @@ public class Question2 implements Question {
 
 	private String question = "What does polymorphism mean?";
 	private String wrongAnswer1 = "1. It's when you combine many if statements and morph them into a fi-statement";
-	private String correctAnswer = "2. It's about how one method call can refer to several different implementations of the method\nand the version being called depends on the type of the object that's being referred to";
+	private String correctAnswer = "2. It's about how one method call can refer to several different implementations of the method\n   and the version being called depends on the type of the object that's being referred to";
 	private String wrongAnswer2 = "3. It's a concept used in biology only and has absolutely nothing to do with programming";
 	private int correctAnswerInt = 2;
 

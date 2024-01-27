@@ -9,7 +9,7 @@ import general.Question;
  */
 public class Question1 implements Question {
 
-	private String question = "What is Java?";
+	private String question = "Warm-up: what is Java?";
 	private String wrongAnswer1 = "1. It simply means that you are typing on the command line / terminal, i.e. you are 'javaing'";
 	private String wrongAnswer2 = "2. A rare flower that only grows in northern Sweden";
 	private String correctAnswer = "3. A programming language";
